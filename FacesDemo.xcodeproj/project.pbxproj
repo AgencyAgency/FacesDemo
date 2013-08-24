@@ -18,6 +18,8 @@
 		CFBB5F2017C948DB005F8BC1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFBB5F1F17C948DB005F8BC1 /* Default-568h@2x.png */; };
 		CFBB5F2317C948DB005F8BC1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFBB5F2117C948DB005F8BC1 /* MainStoryboard.storyboard */; };
 		CFBB5F2617C948DB005F8BC1 /* PDCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBB5F2517C948DB005F8BC1 /* PDCViewController.m */; };
+		CFBB5F2D17C94960005F8BC1 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFBB5F2C17C94960005F8BC1 /* CoreImage.framework */; };
+		CFBB5F2F17C94968005F8BC1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFBB5F2E17C94968005F8BC1 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		CFBB5F2217C948DB005F8BC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		CFBB5F2417C948DB005F8BC1 /* PDCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDCViewController.h; sourceTree = "<group>"; };
 		CFBB5F2517C948DB005F8BC1 /* PDCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDCViewController.m; sourceTree = "<group>"; };
+		CFBB5F2C17C94960005F8BC1 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		CFBB5F2E17C94968005F8BC1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFBB5F2F17C94968005F8BC1 /* QuartzCore.framework in Frameworks */,
+				CFBB5F2D17C94960005F8BC1 /* CoreImage.framework in Frameworks */,
 				CFBB5F0A17C948DB005F8BC1 /* UIKit.framework in Frameworks */,
 				CFBB5F0C17C948DB005F8BC1 /* Foundation.framework in Frameworks */,
 				CFBB5F0E17C948DB005F8BC1 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +79,8 @@
 		CFBB5F0817C948DB005F8BC1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CFBB5F2E17C94968005F8BC1 /* QuartzCore.framework */,
+				CFBB5F2C17C94960005F8BC1 /* CoreImage.framework */,
 				CFBB5F0917C948DB005F8BC1 /* UIKit.framework */,
 				CFBB5F0B17C948DB005F8BC1 /* Foundation.framework */,
 				CFBB5F0D17C948DB005F8BC1 /* CoreGraphics.framework */,
