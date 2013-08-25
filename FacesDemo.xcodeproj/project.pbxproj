@@ -20,6 +20,8 @@
 		CFBB5F2617C948DB005F8BC1 /* PDCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBB5F2517C948DB005F8BC1 /* PDCViewController.m */; };
 		CFBB5F2D17C94960005F8BC1 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFBB5F2C17C94960005F8BC1 /* CoreImage.framework */; };
 		CFBB5F2F17C94968005F8BC1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFBB5F2E17C94968005F8BC1 /* QuartzCore.framework */; };
+		CFBB5F3317C97E1F005F8BC1 /* obama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFBB5F3117C97E1F005F8BC1 /* obama.jpg */; };
+		CFBB5F3417C97E1F005F8BC1 /* obama@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFBB5F3217C97E1F005F8BC1 /* obama@2x.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,8 @@
 		CFBB5F2517C948DB005F8BC1 /* PDCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDCViewController.m; sourceTree = "<group>"; };
 		CFBB5F2C17C94960005F8BC1 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		CFBB5F2E17C94968005F8BC1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CFBB5F3117C97E1F005F8BC1 /* obama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = obama.jpg; sourceTree = "<group>"; };
+		CFBB5F3217C97E1F005F8BC1 /* obama@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "obama@2x.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,7 @@
 		CFBB5F1017C948DB005F8BC1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CFBB5F3017C97DE3005F8BC1 /* Images */,
 				CFBB5F1117C948DB005F8BC1 /* FacesDemo-Info.plist */,
 				CFBB5F1217C948DB005F8BC1 /* InfoPlist.strings */,
 				CFBB5F1517C948DB005F8BC1 /* main.m */,
@@ -113,6 +118,15 @@
 				CFBB5F1F17C948DB005F8BC1 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFBB5F3017C97DE3005F8BC1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CFBB5F3117C97E1F005F8BC1 /* obama.jpg */,
+				CFBB5F3217C97E1F005F8BC1 /* obama@2x.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +186,8 @@
 				CFBB5F1E17C948DB005F8BC1 /* Default@2x.png in Resources */,
 				CFBB5F2017C948DB005F8BC1 /* Default-568h@2x.png in Resources */,
 				CFBB5F2317C948DB005F8BC1 /* MainStoryboard.storyboard in Resources */,
+				CFBB5F3317C97E1F005F8BC1 /* obama.jpg in Resources */,
+				CFBB5F3417C97E1F005F8BC1 /* obama@2x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
